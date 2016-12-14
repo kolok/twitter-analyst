@@ -18,6 +18,7 @@
   "homepage": "https://github.com/derek-palmer/twitter-analyst#readme",
   "dependencies": {
     "express": "^4.14.0",
+    "lokijs": "^1.4.1",
     "nodemon": "^1.11.0"
   }
 }
