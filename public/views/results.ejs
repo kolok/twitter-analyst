@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <% include ./partials/head %>
-</head>
-
-<body>
-  <header>
-    <% include ./partials/header %>
-  </header>
-  <div class="container">
-    <h2>Results for :<strong><%= query %></strong> <small class="pull-right"><form id="result-submit"><input type="text" class="form-control" id="query" placeholder="Enter a search term..."/></form></small></h2>
+    <head>
+        <% include ./partials/head %>
+    </head>
+    <body>
+        <header>
+            <% include ./partials/header %>
+        </header>
+        <div class="container">
+            <h2>Results for :<strong><%= query %></strong> <small class="pull-right"><form id="result-submit"><input type="text" class="form-control" id="query" placeholder="Enter a search term..."/></form></small></h2>
 
         <div class="panel-body">
             <ul id="timeline" class="timeline">
@@ -40,10 +38,11 @@
             <% }); %>
             </ul>
         </div>
-  </div>
-  <footer>
-    <% include ./partials/footer %>
-  </footer>
-</body>
 
+        </div>
+        <footer>
+            <% include ./partials/footer %>
+        </footer>
+
+    </body>
 </html>
