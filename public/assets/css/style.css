@@ -1,3 +1,14 @@
+/* CUSTOM STYLES */
+
+main {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+.searchSpace {
+    padding-bottom: 1rem;
+}
+
 .timeline {
     position: relative;
     padding: 20px 0 20px;

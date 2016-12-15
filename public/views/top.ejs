@@ -11,17 +11,17 @@
     </header>
     <div class="container">
 
-    <div class="Jumbotron text-center>
+    <div class="Jumbotron text-center">
         <h1>Top Terms</h1>
     </div>
         <% terms.forEach(funcion(query, index){ %>
             <div class="col-sm-6 panel">
-                <a class="btn btn-block btn-<%query.style%> btn-lg" 
-                href="/results?q=<%query.term %>"
-                <%= query.term %>
+                <a class="btn btn-block btn-primary<% query.style %> btn-lg"
+                href="/results?q=<% query.term %>"
+                <%=query.term %>
                 </a>
     </div>
-<% }) %> 
+<% }) %>
 
 </div>
 <footer>
