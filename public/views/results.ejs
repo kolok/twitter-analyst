@@ -10,12 +10,12 @@
     <% include ./partials/header %>
   </header>
   <div class="container">
-      <h2>Results for :<strong><%= query %></strong> <small class="pull-right"><form id="result-submit"><input type="text" class="form-control" id="query" placeholder="Enter a search term..."/></form></small></h2>
+    <h2>Results for :<strong><%= query %></strong> <small class="pull-right"><form id="result-submit"><input type="text" class="form-control" id="query" placeholder="Enter a search term..."/></form></small></h2>
 
         <div class="panel-body">
             <ul id="timeline" class="timeline">
                 <% tweets.forEach(function(tweet, index) { %>
-                
+
                 <% if(index % 2 == 0) {%>
                     <li class="timeline-inverted">
                 <% } else {%>

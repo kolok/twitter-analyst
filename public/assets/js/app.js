@@ -26,12 +26,12 @@ $(document).ready(function() {
                         var status = {
                             badge: 'info',
                             icon: 'fa-reply'
-                        }
+                        };
                     } else {
                         var status = {
                             badge: 'success',
                             icon: 'fa-twitter'
-                        }
+                        };
                     }
 
 
@@ -49,10 +49,10 @@ $(document).ready(function() {
                         '    </div>' +
                         '  </div>' +
                         '</li>'
-                    )
+                    );
                 }
             }
-        })
+        });
 
     });
-})
+});
