@@ -69,7 +69,7 @@ If any of the keys show as 'undefined' go back and check your .env file to make 
 
 To view the application go to: [localhost:8080](localhost:8080)
 
-#Attribution(s):
+###Attribution(s):
 
 Material Design bootstrap assets: [mdbootstrap](https://github.com/mdbootstrap/bootstrap-material-design)
 
