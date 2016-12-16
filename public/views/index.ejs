@@ -23,7 +23,7 @@
         <% } %>
 
         <% searches.forEach(function(query, index) { %>
-            <div class="col-sm-6 panel wow fadeInUp" data-wow-delay="1s">
+            <div class="col-sm-6 searchSpace panel wow fadeInUp" data-wow-delay="1s">
                 <a class="btn btn-block btn-primary btn-lg" href="/results?q=<%= query.term %>"><%= query.term %></a>
             </div>
         <% }) %>
