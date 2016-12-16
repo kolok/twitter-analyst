@@ -3,14 +3,12 @@
 ### Pull down the repo:
 ```
 git clone https://github.com/derek-palmer/twitter-analyst.git {folder of your choice}
-
 ```
 Navigate into the directory you just cloned
 
 ### Install dependencies (these dependencies are shown in the package.json) just fun the command below to install them.
 ```
 npm install
-
 ```
 ### Create twitter access credentials:
 
@@ -41,7 +39,6 @@ CONSUMER_KEY=(consumer key goes here, without the parens)
 CONSUMER_SECRET=(consumer secret goes here)
 ACCESS_TOKEN_KEY=(access token key goes here)
 ACCESS_TOKEN_SECRET=(access token secret goes here)
-
 ```
 ### Start it up!
 
@@ -49,7 +46,6 @@ Make sure you're in the root of the directory and run the following command:
 
 ```
 nodemon main.js --ignore db.json
-
 ```
 
 If you don't use the ignore flag your server will get stuck into a loop (if you do this, use ctrl+C to end the loop)
@@ -69,14 +65,11 @@ CONSUMER_KEY (consumer key)
 CONSUMER_SECRET (consumer secret)
 ACCESS_TOKEN_KEY (access token key)
 ACCESS_TOKEN_SECRET (access token secret)
-
 ```
 
 If any of the keys show as 'undefined' go back and check your .env file to make sure you entered the names and keys correctly. The application won't work correctly if you have an undefined key or secret.
 
 To view the application go to: [localhost:8080](localhost:8080)
-
-
 
 #Attribution(s):
 
