@@ -9,8 +9,8 @@ exports.results = function(req, res){
 
         client.get('search/tweets', {q:query}, function(error, tweets, response){
             res.json(tweets);
-        })
+        });
     } else {
         res.send('Error');
     }
-}
+};
