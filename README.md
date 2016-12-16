@@ -27,9 +27,11 @@ npm install
 7.  Under Token Actions Click 'Create my access token'
 &nbsp;
 8.  You will now have the Consumer Key (CONSUMER_KEY), 	Consumer Secret (CONSUMER_SECRET), 	Access Token (ACCESS_TOKEN_KEY), Access Token Secret (ACCESS_TOKEN_SECRET) needed to pull tweets through the application.
-<br />
+
+<br /><br />
     :rotating_light::warning: NOTE: DO NOT SHARE THESE CREDENTIALS WITH ANYONE OR PUT THEM DIRECTLY INTO THE APPLICATION :warning::rotating_light:
-<br />
+<br /><br />
+
 9.  Navigate to the root of the twitter-analyst application folder and create a .env file.
 &nbsp;
 10. Add your keys and secrets to the .env file (example below)
