@@ -72,4 +72,5 @@ To view the application go to: [localhost:8080](localhost:8080)
 #Attribution(s):
 
 Material Design bootstrap assets: [mdbootstrap](https://github.com/mdbootstrap/bootstrap-material-design)
+
 Initial Application NodeJS course + mentorship: [Scotch School - Getting Started with Node.js](https://school.scotch.io/getting-started-with-nodejs)
