@@ -7,6 +7,7 @@
         <header>
             <% include ./partials/header %>
         </header>
+        <main>
         <div class="container">
             <h2>Results for :<strong><%= query %></strong> <small class="pull-right"><form id="result-submit"><input type="text" class="form-control" id="query" placeholder="Enter a search term..."/></form></small></h2>
 
@@ -31,16 +32,16 @@
                         <div class="timeline-body">
                             <p><%= tweet.text %></p>
                             <hr />
-                            <p class="small"><span class="btn btn-sm"><i class="fa fa-heart-o"></i> <%= tweet.favorite_count %></span> | <span class="btn btn-sm"><i class="fa fa-reply"></i> <%= tweet.retweet_count %></span> <span class="pull-right"><a href="https://twitter.com/statuses/<%= tweet.id_str %>" target="_blank" class="btn btn-info btn-sm">View Tweet</a></span></p>
+                            <p class="small"><span class="btn btnResults btn-sm"><i class="fa fa-heart-o"></i> <%= tweet.favorite_count %></span> | <span class="btn btnResults btn-sm"><i class="fa fa-reply"></i> <%= tweet.retweet_count %></span> <span class="pull-right"><a href="https://twitter.com/statuses/<%= tweet.id_str %>" target="_blank" class="btn btn-info btn-sm">View Tweet</a></span></p>
                         </div>
                     </div>
                 </li>
             <% }); %>
             </ul>
         </div>
-
+</main>
         </div>
-        <footer>
+        <footer class="page-footer white center-on-small-only">
             <% include ./partials/footer %>
         </footer>
 

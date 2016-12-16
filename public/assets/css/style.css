@@ -1,8 +1,13 @@
 /* CUSTOM STYLES */
 
+
 main {
     padding-top: 6rem;
     padding-bottom: 2rem;
+}
+
+.btnResults{
+    color: grey !important;
 }
 
 .searchSpace {
@@ -11,7 +16,7 @@ main {
 
 .timeline {
     position: relative;
-    padding: 20px 0 20px;
+    padding: 50px 0 20px;
     list-style: none;
 }
 
@@ -125,7 +130,7 @@ main {
 }
 
 .timeline-badge.success {
-    background-color: #3f903f !important;
+    background-color: #0275d8 !important;
 }
 
 .timeline-badge.warning {

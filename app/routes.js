@@ -9,4 +9,4 @@ module.exports = function(app){
     app.get('/results', core.results);
 
     app.get('/api/results', api.results);
-}
+};
